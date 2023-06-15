@@ -31,6 +31,21 @@ public class StudentController {
         return studentService.getStudentbyID(id);
     }
 
+    @PUT
+    @Path("/{id}")
+    @Produces(MediaType.APPLICATION_JSON)
+    @Consumes(MediaType.APPLICATION_JSON)
+    public Student updateStudent(@PathParam("id") String id, @Valid Student updatedStudent) {
+        return studentService.updateStudent(id, updatedStudent);
+    }
+
+    @DELETE
+    @Path("/{id}")
+    @Produces(MediaType.APPLICATION_JSON)
+    public void deleteStudent(@PathParam("id") String id) {
+        studentService.deleteStudent(id);
+    }
+
     @POST
     @Produces(MediaType.APPLICATION_JSON)
     @Consumes(MediaType.APPLICATION_JSON)

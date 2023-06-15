@@ -33,8 +33,8 @@ public class StudentService {
         return studentRepository.addStudent(student);
     }
 
-    public void deleteSTudent(Student student){
-        studentRepository.deleteStudent(student);
+    public void deleteStudent(String id){
+        studentRepository.deleteStudent(id);
     }
 
     public Student updateStudent(String id, Student student){

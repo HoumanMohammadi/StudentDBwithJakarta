@@ -31,8 +31,8 @@ public class StudentRepository {
         return studentMap.get(id);
     }
 
-    public void deleteStudent(Student student){
-        studentMap.remove(student.studentID());
+    public void deleteStudent(String id){
+        studentMap.remove(id);
     }
 
     public Student updateStudent(String id, Student student){
