@@ -1,10 +1,9 @@
-package Repository;
+package de.iav.studentdbwithjakarta.Repository;
 
-import Model.Student;
-import Exception.StudentNotFoundException;
+import de.iav.studentdbwithjakarta.Model.Student;
+import de.iav.studentdbwithjakarta.Exception.StudentNotFoundException;
 import jakarta.enterprise.context.ApplicationScoped;
 
-import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;

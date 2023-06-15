@@ -1,4 +1,4 @@
-package Exception;
+package de.iav.studentdbwithjakarta.Exception;
 
 public class StudentNotFoundException extends RuntimeException {
     public StudentNotFoundException(String id) {

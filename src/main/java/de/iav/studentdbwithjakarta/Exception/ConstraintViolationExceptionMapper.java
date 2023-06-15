@@ -1,4 +1,4 @@
-package Exception;
+package de.iav.studentdbwithjakarta.Exception;
 
 import jakarta.validation.ConstraintViolation;
 import jakarta.validation.ConstraintViolationException;

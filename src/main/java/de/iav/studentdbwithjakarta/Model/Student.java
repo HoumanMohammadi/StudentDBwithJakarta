@@ -1,4 +1,4 @@
-package Model;
+package de.iav.studentdbwithjakarta.Model;
 
 import jakarta.validation.constraints.NotBlank;
 

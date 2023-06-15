@@ -1,4 +1,4 @@
-package Exception;
+package de.iav.studentdbwithjakarta.Exception;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

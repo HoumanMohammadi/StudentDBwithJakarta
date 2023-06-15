@@ -1,7 +1,7 @@
-package Controller;
+package de.iav.studentdbwithjakarta.Controller;
 
-import Model.Student;
-import Service.StudentService;
+import de.iav.studentdbwithjakarta.Model.Student;
+import de.iav.studentdbwithjakarta.Service.StudentService;
 import jakarta.inject.Inject;
 import jakarta.validation.Valid;
 import jakarta.ws.rs.*;

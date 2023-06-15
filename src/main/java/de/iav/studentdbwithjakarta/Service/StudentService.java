@@ -1,7 +1,7 @@
-package Service;
+package de.iav.studentdbwithjakarta.Service;
 
-import Model.Student;
-import Repository.StudentRepository;
+import de.iav.studentdbwithjakarta.Model.Student;
+import de.iav.studentdbwithjakarta.Repository.StudentRepository;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 
