@@ -1,2 +1,4 @@
-package Model;public record Student() {
+package Model;
+
+public record Student() {
 }
